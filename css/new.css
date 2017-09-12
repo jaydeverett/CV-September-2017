@@ -1,0 +1,180 @@
+@keyframes blink {
+  to {
+    opacity: .0;
+  }
+}
+
+@keyframes type {
+  from {
+    width: 0;
+  }
+}
+
+* {
+  transition: all 500ms ease;
+}
+
+a {
+  text-decoration: none;
+  color: #ddd;
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: "Courier";
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.container {
+  font-family: "Consolas", "Courier", fixed-width;
+  margin: 0 auto;
+  padding: 0 0 20px 0;
+  max-width: 70%;
+}
+
+#intro {
+  padding-top: 120px;
+}
+
+#work {
+  padding-top: 50px;
+  display: none;
+}
+
+#contact {
+  padding-top: 50px;
+  display: none;
+}
+
+
+/*.hidden {
+  display: none !important;
+}*/
+
+h1 {
+  font-size: 40px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  animation: type 4s steps(60, end);
+  font-family: 'Press Start 2P', cursive;
+}
+
+p {
+  font-size: 30px;
+}
+
+span {
+  animation: blink 1s infinite;
+}
+
+.smaller {
+  font-size: 20px;
+}
+
+.evensmaller {
+  font-size: 14px;
+  padding-left: 30pt;
+
+}
+
+.info {
+  font-size: 18px;
+}
+
+.info:nth-of-type(1) {
+  margin-top: 25px;
+}
+
+.btn {
+  background: #000;
+  border-color: transparent;
+  border-radius: 0px;
+  border-width: 2px;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  transition: all 1s ease;
+  margin: 10px 0px;
+  display: inline-block;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-project:hover {
+  background: #555;
+}
+
+.btn-open-modal {
+  margin: 10px auto;
+}
+
+.btn:hover {
+  background: #777;
+}
+
+#work .smaller {
+  font-size: 15px;
+}
+
+#work section {
+  margin-bottom: 50px;
+}
+
+#contact section {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+
+.main-content {
+  max-height: 450px;
+  overflow-y: scroll;
+  text-align: center;
+}
+
+
+.main-content::-webkit-scrollbar-track
+{
+	border: 1px solid black;
+	background-color: #F5F5F5;
+}
+
+.main-content::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+.main-content::-webkit-scrollbar-thumb
+{
+	background-color: #000000;
+}
+
+@media (max-width: 768px) {
+  #intro {
+    padding-top: 25px;
+  }
+  h1 {
+    width: 100%;
+    font-size: 30px;
+  }
+  p {
+    font-size: 25px;
+  }
+  .modal-content {
+    margin: 25px auto;
+  }
+  .main-content {
+    max-height: 400px;
+  }
+}
