@@ -93,6 +93,25 @@ span {
   margin-top: 25px;
 }
 
+.icon {
+  margin-right: 12px;
+}
+
+a.btn {
+    position: relative;
+    bottom: 14px;
+}
+
+.btn.work {
+    position: relative;
+    bottom: 13px;
+}
+
+.btn.contact {
+    position: relative;
+    bottom: 13px;
+}
+
 .btn {
   background: #000;
   border-color: transparent;
@@ -166,7 +185,7 @@ span {
   }
   h1 {
     width: 100%;
-    font-size: 30px;
+    font-size: 19px;
   }
   p {
     font-size: 25px;
@@ -176,5 +195,14 @@ span {
   }
   .main-content {
     max-height: 400px;
+  }
+
+  .icon {
+    display: block;
+    padding-bottom: 15px;
+  }
+
+  .btn {
+    display: block;
   }
 }
