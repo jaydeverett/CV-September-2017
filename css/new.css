@@ -239,6 +239,11 @@ a.btn {
     max-height: 400px;
   }
 
+  .featured {
+    width: 100%;
+    font-size: 15px;
+  }
+
   .icon {
     display: block;
     padding-bottom: 15px;
