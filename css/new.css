@@ -76,6 +76,7 @@ h2 {
   white-space: nowrap;
   overflow: hidden;
   width: 100%;
+  font-weight: bold;
 }
 
 h3 {
@@ -100,7 +101,7 @@ h5 {
   overflow: hidden;
   width: 100%;
   color: red;
-  font-family: 'Press Start 2P', cursive;  
+  font-family: 'Press Start 2P', cursive;
 }
 
 p {
