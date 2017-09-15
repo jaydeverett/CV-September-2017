@@ -53,6 +53,10 @@ body {
   display: none;
 }
 
+#spotlight {
+  display: none;
+}
+
 
 /*.hidden {
   display: none !important;
@@ -65,6 +69,38 @@ h1 {
   width: 100%;
   animation: type 4s steps(60, end);
   font-family: 'Press Start 2P', cursive;
+}
+
+h2 {
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+}
+
+h3 {
+  font-size: 17px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  font-family: 'Press Start 2P', cursive;
+}
+
+h4 {
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  font-family: 'Press Start 2P', cursive;
+}
+
+h5 {
+  font-size: 28px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  color: red;
+  font-family: 'Press Start 2P', cursive;  
 }
 
 p {
@@ -108,6 +144,11 @@ a.btn {
 }
 
 .btn.contact {
+    position: relative;
+    bottom: 13px;
+}
+
+.btn.spotlight {
     position: relative;
     bottom: 13px;
 }

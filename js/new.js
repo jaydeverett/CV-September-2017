@@ -16,4 +16,12 @@ $(document).ready(function() {
       'slow');
   });
 
+  $('.spotlight').click(function() {
+    $('#spotlight').fadeIn();
+    $('html,body').animate({
+        scrollTop: $('#spotlight').offset().top
+      },
+      'slow');
+  });
+
 });
